@@ -19,7 +19,7 @@
   <li>zadaca</li>
 </ol>
 
-  <!-- naslovi,heading  --> 
+<!--  naslovi,heading  --> 
    <h1>naslov 1</h1>
    <h2>naslov 2</h2>
    <h3>naslov 3</h3>
@@ -124,16 +124,16 @@ mi smo <strong>3.e razred</strong>. <sub>razrednik</sub> nam je <em>prof. <mark>
 
  <h2>slike i img element</h2>
 <!--  slika s weba -->
-<img src="https://exoticfruitbox.com/wp-content/uploads/2015/10/mango.jpg" alt="mango"width="500"height="200">
+<img src="https://exoticfruitbox.com/wp-content/uploads/2015/10/mango.jpg" alt="mango" width="500"height="200">
 <br><!-- prazan red -->
 <hr><!-- ______ -->
 <!-- <p>slika s naseg pca</p> -->
-<img src="./slike/mango.jpg" alt="mango"width="500">
+<img src="./slike/mango.jpg" alt="mango" width="500">
 
 
 <h1>its my bday!!</h1>
 <h2>on the 17th of october</h2>
-<img src="./slike/bday cake.jpg" alt="cake"width="450">
+<img src="./slike/bday cake.jpg"alt="cake" width="450">
 <h3>bring:</h3>
 <ul style="list-style-type:circle">
   <li>weed</li>
@@ -145,7 +145,100 @@ mi smo <strong>3.e razred</strong>. <sub>razrednik</sub> nam je <em>prof. <mark>
 
  <br>
  <!-- <h2>slika kao link</h2> -->
- <p><a href="https://music.youtube.com/"><img src="./slike/unnamed.png" alt="yt"width=300></a></p>
+ <p><a href="https://music.youtube.com/"><img src="./slike/unnamed.png" alt="yt"width=300></a></p> 
 
+ <h2>tablice u htmlu</h2>
+ <table border="1">
+  <tr>
+    <th colspan="2">ime prezime</th>
+    <th>link</th>
+    <th>razred</th>
+  </tr>
+  <tr>
+    <td>petar</td>
+    <td>basanovic</td>
+    <td>https://google.com</td>
+    <td rowspan="3">3.e</td>
+  </tr>
+<tr>
+  <td>david</td>
+  <td>grgic</td>
+  <td>https://policija.hr</td>
+</tr>
+<tr>
+  <td>petar</td>
+  <td>basan</td>
+  <td>https://google.com</td>
+</tr>
+ </table>
+
+<!-- zadaci -->
+<h1>zadatak 1</h1>
+<table border="1">
+<th>name</th>
+<th>age</th>
+<th>country</th>
+
+<tr>
+  <td>harry depp</td>
+  <td>28</td>
+  <td>britain</td>
+</tr>
+<tr>
+  <td>john smith</td>
+  <td>35</td>
+  <td>USA</td>
+</tr>
+<tr>
+<td>ram krishna</td>
+<td>19</td>
+<td>nepal</td>
+</tr>
+</table>
+
+<table  border="1">
+  <th>S.N</th>
+  <th>item</th>
+  <th>quantity</th>
+  <tr>
+    <td>1</td>
+    <td>apple</td>
+    <td>2</td> 
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>mango</td>
+    <td>2</td>
+  </tr>
+  <tr>
+  <td>3</td>
+  <td>orange</td>
+  <td>1</td>
+</tr>
+<tr>
+  <td colspan="2">total</td>
+  <td>5</td>
+</tr>
+</table>
+
+
+<table  border="1">
+  <th>name</th>
+  <th>subject</th>
+  <th>marks</th>
+  <tr>
+    <td rowspan="3">mark smith</td>
+    <td>english</td>
+    <td>67</td>
+  </tr>
+  <tr>
+    <td>maths</td>
+    <td>82</td>
+  </tr>
+  <tr>
+    <td>science</td>
+    <td>91</td>
+  </tr>
+</table>
 </body>
 </html>
