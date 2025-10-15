@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forme</title>
+</head>
+<body>
+    <h2>forme u htmlu</h2>
+    <!-- label i input,break, prezime input... -->
+     <form action="#" method="get">
+        <label for="ime">ime:</label> <!-- for= i id= moraju bit isti -->
+        <input type="text" id="ime" placeholder="unesi ime..." required><br>
+        <label for="prezime">prezime:</label>
+        <input type="text" id="prezime" size="13" maxlength="6" value="tat" disabled><br>
+        <label for="pass">unesi lozinku:</label>
+        <input type="password"  id="pass"><br> 
+        <label for="mail">mail:</label>
+        <input type="email" name="mail" id="mail"><br>
+        <label for="date">unesi datum:</label>
+        <input type="date" name="date" id="date"><br>
+        <label for="color">izaberi boju</label>
+        <input type="color" name="color" id="color"><br>
+        <label for="file">izaberi datoteku:</label>
+        <input type="file" name="file" id="file"><br>
+        <label for="tel">unesi broj telefona</label>
+        <input type="tel" name="tel" id="tel"><br>
+        <p>izaberi najbolji klub:</p>
+        <input type="radio" name="klub" id="hajduk">  <!-- jednostruki izbor -->
+        <label for="hajduk">hajduk</label><br>
+        <input type="radio" name="klub" id="dinamo">
+        <label for="dinamo">dinamo</label><br>
+        <input type="radio" name="klub" id="slaven belupo">
+        <label for="slaven belupo">slaven belupo</label><br>
+        <p>izaberi najbolji klub:</p>
+        <input type="checkbox" name="hajduk" id="hajduk">  <!-- visestruki izbor -->
+        <label for="hajduk">hajduk</label><br>
+         <input type="checkbox" name="dinamo" id="dinamo">
+        <label for="dinamo">dinamo</label><br>
+         <input type="checkbox" name="slaven belupo" id="slaven belupo">
+        <label for="slaven belupo">slaven belupo</label><br>
+        
+
+
+
+
+
+        <input type="reset" value="ponisti">
+        <input type="submit" value="posalji">
+     </form>
+
+
+
+</body>
+</html>
