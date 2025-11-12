@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css box model</title>
+
+    <style>
+     *{
+        box-sizing: border-box;
+     }
+
+
+      h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }  
+    div{
+        width:300px;
+        height:300px;
+    }
+
+   .box{
+    background-color: rgb(55, 68, 143);
+    border: 5px solid violet;  /* debljina,tip,boja */
+    margin: 78px 45px 23px 13px ; /* ak su a=c i b=d ide margin:a b */
+    padding: 17px;
+    border-radius: 38px;
+ /*    border-radius: 13px; */
+   }
+
+   .drugi{
+    background-color: rgb(136, 59, 136);
+    border:4px dashed blue;
+    margin-top: 50px;
+    padding: 35px;
+    border-radius: 50%;
+ }
+
+
+
+
+</style>
+</head>
+<body>
+    <h1>box model </h1>
+
+
+    <div class="box">    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quos, facilis,
+    tempora reprehenderit ullam voluptatem nobis quia magnam est cupiditate dicta quod excepturi corporis, 
+    reiciendis eius nulla labore quisquam eaque.</div>
+
+    <div class="drugi">    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est commodi hic architecto eos cum quo labore autem eum 
+    beatae non similique cupiditate voluptas at maiores totam, 
+    impedit harum et repellendus.
+    Id illo obcaecati cumque, sint architecto laborum quidem libero, at unde dicta voluptate pariatur? Tenetur laboriosam, 
+    eligendi voluptatum accusantium fuga tempora explicabo quisquam sunt iure aliquid! Earum beatae soluta perspiciatis.</div>
+
+
+
+</body>
+</html>
