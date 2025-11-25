@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css position</title>
+    <style>
+        .relativ{
+         width:500px;
+         height:300px;
+         border:1px solid black;
+         position: relative;
+
+        }
+        .prvi{
+        width:150px;
+        height:300px;
+        background-color:pink; /* rgba nesto */
+        position: absolute;
+        z-index:2;
+        }
+       .drugi{
+        width:150px;
+        height:300px;
+        box-shadow: 6px 13px violet;
+        background-color: cornflowerblue;
+        position:absolute;
+        left:130px;
+       }
+      .crveno{
+        width:500px;
+        height:350px;
+        background-color: rgb(172, 45, 45);
+      }
+      .plavo{
+        width:5x;
+        height:0px;
+        background-color: rgb(40, 40, 121);
+      }
+    </style>
+</head>
+<body>
+    <h1>css positioning</h1>
+    <div class="relativ">
+        <div class="prvi">  </div>
+        <div class="drugi">  </div>
+    </div>
+ <h1>zastava laosa</h1>
+
+ <div class="crveno"></div>
+ <div class="plavo"></div>
+ <div class="bijeli"> border radius 50p za krug</div>
+</body>
+</html>
