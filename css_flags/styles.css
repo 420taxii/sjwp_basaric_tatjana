@@ -1,0 +1,74 @@
+.plava{
+    width:500px;
+    height:250px;
+    background-color: rgb(1, 1, 179);
+    position: relative;
+}
+
+.crvenah{
+    width:500px;
+    height:40px;
+    background-color: rgb(189, 0, 0);
+    position:absolute;
+    margin-top: 100px;
+    z-index: 2;
+}
+.crvenav{
+    width:30px;
+    height:250px;
+    background-color: rgb(189, 0, 0);
+    position:absolute;
+    margin-left:100px;
+    z-index: 2;
+}
+.bijelah{
+    width:500px;
+    height:60px;
+    background-color: white;
+    position:absolute;
+    margin-top: 90px;
+    z-index:1;
+}
+.bijelav{
+    width:50px;
+    height:250px;
+    background-color: white;
+    position:absolute;
+    margin-left:90px;
+}
+
+.plav{
+    width:300px;
+    height:250px;
+    background-color: rgb(25, 185, 190);
+    position:relative;
+    z-index: 1;
+}
+
+.crna{
+    width:0px;
+    height:0px;
+    position:absolute;
+    border-left:125px solid black;
+    border-top:150px solid transparent;
+    border-bottom:100px solid transparent;
+    z-index: 3;
+
+}
+.zuta{
+    width:300px;
+    height:90px;
+    background-color: rgb(211, 211, 41);
+    position:absolute;
+    margin-top:80px;
+    z-index: 2;
+}
+
+
+.crvena{
+    width:300px;
+    height:250px;
+    position:relative;
+    background-color: rgb(133, 27, 27);
+
+}
