@@ -37,6 +37,9 @@
     margin-left:90px;
 }
 
+
+
+
 .plav{
     width:300px;
     height:250px;
@@ -65,10 +68,144 @@
 }
 
 
+
+
+
 .crvena{
     width:300px;
     height:250px;
     position:relative;
     background-color: rgb(133, 27, 27);
 
+}
+
+
+
+
+
+.krug{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    position: relative;
+    background-color: rgb(77, 24, 126);
+}
+.krug2{
+    width:230px;
+    height:230px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    position:absolute;
+    left:5
+    
+    0px;
+    bottom:10px;
+}
+  
+
+
+
+.baza{
+     width:480px;
+    height:300px;
+    background-color: rgb(141, 141, 255);
+    position: relative;
+}
+.zel{
+    width:160px;
+    height:300px;
+    background-color: #007A5E;
+    position: absolute;
+}
+.red{
+    width:160px;
+    height:300px;
+    position:absolute;
+    background-color: #CF1128;
+    margin-left: 160px;
+}
+.zut{
+    width:160px;
+    height:300px;
+    position:absolute;
+    background-color: #FCD116;
+    margin-left:320px ;
+}
+
+.zvij{
+
+    width:100px;
+    height:100px;
+    background:#FCD116;
+    position: absolute;
+    top: 100px;
+    left: 185px;
+    clip-path: polygon(
+     50% 0%,
+     61% 35%,
+    98% 35%,
+     68% 57%,
+     79% 91%,
+    50% 70%,
+    21% 91%,
+     32% 57%,
+     2% 35%,
+     39% 35%
+ );
+
+    
+}
+
+
+.bazaa{
+    width: 500px;
+    height:300px;
+    position:relative;
+    background-color: red;
+
+}
+
+.krugg{
+    width:200px ;
+    height:200px ;
+    background-color: white;
+    position:absolute ;
+    border-radius: 50%;
+    top:50px;
+    left:130px;
+    z-index: 1;
+}
+
+.kruug2{
+    width:178px ;
+    height:178px ;
+    position:absolute ;
+    top:60px;
+    left:160px;
+    background-color:red ;
+    border-radius: 50%;
+    z-index:2 ;
+}
+
+.zvije{
+    width:70px ;
+    height:70px ;
+    position: absolute;
+    background-color: white;
+    left:280px;
+    top:120px;
+    z-index:3 ;
+       clip-path: polygon(
+     50% 0%,
+     61% 35%,
+    98% 35%,
+     68% 57%,
+     79% 91%,
+    50% 70%,
+    21% 91%,
+     32% 57%,
+     2% 35%,
+     39% 35%
+ );
+    transform:rotate(-20deg);
 }
