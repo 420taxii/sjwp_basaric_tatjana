@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rl</title>
+    <style>
+   .prvi{
+    height:200px;
+    width:200px;
+    background-color: rgb(84, 84, 194);
+    margin-left:200px;
+    margin-top:100px;
+    text-align:center;
+
+    animation-duration:2s;
+    animation-name:gumb;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+   }
+      @keyframes gumb{
+        0%{
+
+        }
+
+        25%{
+           scale:1.5;
+            
+        }
+        50%{
+            scale:1;
+        }
+        75%{
+            scale:1.5;
+        }
+        100%{
+            
+        }
+    }
+  
+   .drugi{
+      height:200px;
+    width:200px;
+    background-color: red;
+
+    animation: 4s semafor ease-in-out infinite normal running;
+    margin-left:400px;
+    
+
+   }
+   @keyframes semafor{
+
+    0%{
+
+    }
+    25%{
+        background-color: blue;
+    }
+ 50%{
+    background-color: green;
+ }
+ 75%{
+    background-color: red;
+ }
+   }
+    
+  
+    </style>
+</head>
+<body>
+    <h1>rl</h1>
+
+    <div class="prvi">klikni me</div>
+    <div class="drugi"></div>
+</body>
+</html>
