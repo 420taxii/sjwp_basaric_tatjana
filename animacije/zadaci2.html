@@ -45,6 +45,7 @@
 
     animation: 4s semafor ease-in-out infinite normal running;
     margin-left:400px;
+    margin-top:100px;
     
 
    }
@@ -63,8 +64,114 @@
     background-color: red;
  }
    }
+
+   .treci{
+      height:200px;
+    width:200px;
+    border-radius: 50%;
+    background-color: #eb6bd5;
+    animation:3s bjezi ease-in-out infinite normal running;
+   margin-left:100px;
+   }
+@keyframes bjezi{
+  0%{
     
-  
+  }
+  25%{
+    transform:translateX(50px);
+  }
+  50%{
+    transform:translateX(-50px);
+  }
+  75%{
+    transform:translateX(100px);
+  }
+  100%{
+    transform:translateX(-100px);
+  }
+}
+.cet{
+       height:200px;
+    width:200px;
+    background-color: #ec77bb;
+    margin-left:100px;
+    margin-top:100px;
+    
+}
+    .cet:hover{
+        scale:1.5;
+       background-color: rgb(87, 71, 231);
+       box-shadow:15px 10px 30px #2e265c;
+       transition-duration:0.5s;
+    }
+
+    .pet{
+         height:200px;
+        width:200px;
+        background-color: #503177;
+        animation:2s rotate ease-in-out infinite normal running;
+        margin-top:100px;
+    margin-left:200px;
+    }
+  @keyframes rotate{
+        0%{
+      
+        }
+          25%{
+            transform:rotate(360deg);
+        }
+        50%{
+        transform:rotate(360deg);
+        
+     
+        }
+          75%{
+        transform:rotate(360deg);
+       }
+        100%{
+            transform:rotate(360deg);
+        }
+  }
+
+  .sest{
+
+      height:200px;
+        width:200px;
+        border-radius:50%;
+        border:7px #237094 solid;
+        border-top:7px #ee4472 solid; 
+
+       animation:1s spin ease-in-out infinite normal running;
+         margin-left:200px;
+         margin-top:100px;
+  }
+
+       
+  @keyframes spin{
+          0%{
+
+          }
+          50%{
+            transform:rotate(0deg);
+          
+          }
+
+          100%{
+          transform:rotate(360deg);
+         
+          }
+        }
+
+    .sed{
+         height:200px;
+        width:200px;
+        background-color: #41a4c9;
+        margin-left:400px;
+        margin-top:-200px;
+
+        animation:3s move ease-in-out infinite alternate running;
+    }
+
     </style>
 </head>
 <body>
@@ -72,5 +179,11 @@
 
     <div class="prvi">klikni me</div>
     <div class="drugi"></div>
+    <div class="treci"></div>
+    <div class="cet">rawr</div>
+    <div class="pet"></div>
+    <div class="sest"></div>
+    <div class="sed"></div>
+
 </body>
 </html>
