@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif  ;
+
+        }
+
+        p{
+            background-color: rgba(92, 155, 211, 0.849);
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 2fr; /* fractions stranice */
+            grid-template-rows: 1fr 1fr; /* 2 reda */
+            gap:20px; /* razmak */
+
+        }
+    </style>
+</head>
+<body>
+    <h1>grid demo</h1>
+    <div class="container">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Provident cumque explicabo saepe, 
+            corporis expedita aliquam porro doloremque vero laudantium hic
+             amet et aliquid quisquam accusamus molestiae ducimus recusandae
+              magnam aut.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Voluptas nulla excepturi eum numquam quo accusamus sit b
+            landitiis, iusto repellendus culpa sint, beatae corrupti
+             soluta doloribus iure qui fugiat commodi accusantium.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Reiciendis id numquam qui expedita. Vitae, magni provident
+              dolores quaerat, obcaecati distinctio tempora a eaque autem 
+              quis velit nostrum dolore,
+             consequatur nobis?</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit
+             Laudantium tempore adipisci aperiam qui, ullam nam placeat
+              assumenda, hic et dolorem tempora amet, voluptas provident
+               nisi molestiae sapiente.
+             Necessitatibus, beatae est.</p>
+    </div>
+</body>
+</html>
