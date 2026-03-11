@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .container{
+            height: 80vh;
+            display: grid;
+            gap: 3rem;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+        .container div{
+            background-color: rgb(58, 57, 57);
+            color: white;
+            font-size: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+        }     
+
+
+        
+        .container1{
+            height: 80vh;
+            display: grid;
+            gap: 3rem;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+        .container1 div{
+            background-color: rgb(58, 57, 57);
+            color: white;
+            font-size: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+        }
+        
+        .a1{
+            order: -9;
+        }
+        .b1{
+            order: -6;
+        }
+        .c1{
+            order: -5;
+        }
+        .d1{
+            order: -10;
+        }
+        .e1{
+            order: -7;
+        }
+        .f1{
+            order: -8;
+        }
+
+
+
+         .container2{
+            height: 80vh;
+            display: grid;
+            gap: 3rem;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+        .container2 div{
+            background-color: rgb(58, 57, 57);
+            color: white;
+            font-size: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+        }
+        .a2{
+            grid-column: span 2;
+        }
+        .b2{
+            grid-row: span 2;
+        }
+
+
+         .container3{
+            height: 80vh;
+            display: grid;
+            gap: 3rem;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+        }
+        .container3 div{
+            background-color: rgb(58, 57, 57);
+            color: white;
+            font-size: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+        }
+        .a3{
+            grid-column: span 2;
+        }
+        .b3{
+            grid-column: span 2;
+        }
+        .d3{
+            grid-column: span 3;
+        }
+        .e3{
+            grid-column: span 4;
+            
+        }
+        
+
+        .container4{
+            height: 80vh;
+            display: grid;
+            gap: 3rem;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+        .container4 div{
+            background-color: rgb(58, 57, 57);
+            color: white;
+            font-size: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+        }
+        .a4{
+            grid-column: span 2;
+            order: -3;
+        }
+        .b4{
+            grid-row: span 2;
+            order: -2;
+        }
+        .e4{
+            order: -1;
+            grid-row: span 3;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>1.Zadatak</h1>
+    <div class="container">
+        <div class="a">A</div>
+        <div class="b">B</div>
+        <div class="c">C</div>
+        <div class="d">D</div>
+        <div class="e">E</div>
+        <div class="f">F</div>
+    </div>
+
+
+      <h1>2.Zadatak</h1>
+    <div class="container1">
+        <div class="a1">A</div>
+        <div class="b1">B</div>
+        <div class="c1">C</div>
+        <div class="d1">D</div>
+        <div class="e1">E</div>
+        <div class="f1">F</div>
+    </div>
+   
+    <h1>3./4.Zadatak</h1>
+    <div class="container2"> 
+    <div class="a2">A</div>
+    <div class="b2">B</div>
+    <div class="c2">C</div>
+    <div class="d2">D</div>
+</div>
+
+<h1>5.zadatak</h1>
+<div class="container3">
+    <div class="a3">A</div>
+    <div class="b3">B</div>
+    <div class="c3">C</div>
+    <div class="d3">D</div>
+    <div class="e3">E</div>
+</div>
+
+
+ </div>
+    <h1>6.Zadatak</h1>
+    <div class="container4">
+        <div class="a4">A</div>
+        <div class="b4">B</div>
+        <div class="c4">C</div>
+        <div class="d4">D</div>
+        <div class="e4">E</div>
+    </div>
+   
+</body>
+</html>
