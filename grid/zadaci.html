@@ -115,37 +115,85 @@
             grid-column: span 4;
             
         }
-        
 
-        .container4{
+
+
+         .container6{
+            height: 50vh;
+            width: 200vh;
+            display: grid;
+            gap: 3rem;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+        .container6 div{
+            font-size: 3rem;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .crni{
+            color: white;
+            background-color: rgb(58, 57, 57);
+        }
+        
+        .sivi{
+            background-color: lightgray;
+            color: black;
+        }
+
+
+
+         .container7{
             height: 80vh;
             display: grid;
             gap: 3rem;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
         }
-        .container4 div{
-            background-color: rgb(58, 57, 57);
+        .container7 div{
+           
             color: white;
             font-size: 5rem;
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: start;
             border-radius: 10px;
+            padding: 20px;
         }
-        .a4{
+        .a5{
             grid-column: span 2;
-            order: -3;
+            background-color: rgb(58, 57, 57);
         }
-        .b4{
-            grid-row: span 2;
-            order: -2;
+        .b5{
+            grid-column: span 3;
+            background-color: rgb(58, 57, 57);
         }
-        .e4{
-            order: -1;
-            grid-row: span 3;
+        .c5{
+            background-color: rgb(58, 57, 57);
         }
+        .d5{
+           grid-column: span 3; 
+           background-color: rgb(58, 57, 57);
+           grid-area: 2/2/3/5;
+        }
+        .e5{
+            grid-column: span 5;
+            order: 1; 
+            background-color: rgb(58, 57, 57);
+        }
+        .f5{
+            background-color: rgb(125, 210, 238);
+            opacity: 0.4;
+            z-index: 1;
+            grid-area: 2/3/3/6;
+            
+        }
+    
 
+   
+  
 
     </style>
 </head>
@@ -198,6 +246,35 @@
         <div class="d4">D</div>
         <div class="e4">E</div>
     </div>
-   
+
+
+
+    
+    <h1>8.Zadatak</h1>
+    <div class="container6">
+        <div class="crni">1</div>
+        <div class="sivi">2</div>
+        <div class="crni">3</div>
+        <div class="sivi">4</div>
+        <div class="crni">5</div>
+        <div class="sivi">6</div>
+        <div class="crni">7</div>
+        <div class="sivi">8</div>
+        <div class="crni">9</div>
+        <div class="sivi">10</div>
+        <div class="crni">11</div>
+        <div class="sivi">12</div>
+    </div>
+
+    
+    <h1>9.Zadatak</h1>
+    <div class="container7">
+        <div class="a5">A</div>
+        <div class="b5">B</div>
+        <div class="c5">C</div>
+        <div class="d5">D</div>
+        <div class="e5">E</div>
+        <div class="f5">F</div>
+    </div>
 </body>
 </html>
