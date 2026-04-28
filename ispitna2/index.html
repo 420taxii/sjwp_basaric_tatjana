@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+*{background-color: rgb(201, 201, 201);}
+.container{
+            height:100vh;
+           
+            display: grid;
+            grid-template-columns:repeat(4,1fr);
+           
+            gap:20px;
+        }
+
+.container div{
+    
+    
+    background-color: rgb(255, 255, 255);
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ @media (min-width: 1024px) {
+  .layout {
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap:20px;
+  }
+
+
+}
+
+ @media (max-width:1023px)   {
+  .layout {
+    grid-template-rows: repeat(2,1fr);
+   
+    gap:20px;
+  }
+
+}
+
+ @media (max-width:768px) {
+  .layout {
+    grid-template-rows:1fr;
+    
+    gap:20px;
+  }
+
+}
+
+    </style>
+</head>
+<body>
+    
+
+     <div class="container">
+        <div class="a">proizv1</div>
+        <div class="b">proizv2</div>
+        <div class="c">proizv3</div>
+        <div class="d">proizv4</div>
+        <div class="e">proizv5</div>
+        <div class="f">proizv6</div>
+        <div class="g">proizv7</div>
+        <div class="h">proizv8</div>
+    </div>
+
+</body>
+</html>
