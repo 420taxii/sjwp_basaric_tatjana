@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>moja osobna web stranica</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity=
+    "sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+
+    <style>
+body{
+    background-color: rgb(241, 221, 255);
+}
+h1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+p{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pb-3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.col-md-6 {
+    font-style: italic;
+}
+.lead{
+    font-size: 25px;
+    font-style:italic;
+}
+.p1{
+    font-size: 25px;
+    font-style:italic;
+}
+.p2{
+    font-size: 25px;
+    font-style:italic;
+}
+.p3{
+    font-size: 25px;
+    font-style:italic;
+}
+.cont{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+    </style>
+</head>
+<body>
+
+
+    <div class="cont"> <div class="bd-example-snippet bd-code-snippet"> 
+    <div class="bd-example m-0 border-0"> 
+    </div>  </div> 
+    <div class="bd-example-snippet bd-code-snippet"> 
+    <div class="bd-example m-0 border-0"> 
+    <nav>
+    <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">about me</button>
+    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false" tabindex="-1">opis</button>
+    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false" tabindex="-1">hobbies</button>
+          </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade active show" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+            <p class="p1">vam cu rec nest o sebi</p>
+          </div>
+          <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+            <p class="p2">vam cu jos pricat o sebi</p>
+          </div>
+          <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+            <p class="p3">vam cu pricat o svojim hobijima</p>
+          </div>
+        </div>
+         </div>  </div> <div class="bd-example-snippet bd-code-snippet"> <div class="bd-example m-0 border-0"> 
+        
+         </div>  </div> </div>
+
+
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5"> 
+    <div class="col-10 col-sm-8 col-lg-6"> 
+    <img src="/slike/weed.jpg" class="d-block mx-lg-auto img-fluid" alt="img" width="300px" loading ="lazy"> </div> 
+    <div class="col-lg-6"> 
+    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">ko sam ja</h1> 
+    <p class="lead">zovem se tatjana basaric,idem u 3 raz tssb,volim zivotinje,prirodu i dobar tehno <br> also volim bingat serije
+    </p> 
+    <div class="d-grid gap-2 d-md-flex justify-content-md-start"> 
+     </div> </div> </div>
+
+
+<div class="row mb-3 text-center"> 
+<div class="col-md-8 themed-grid-col"> 
+<div class="pb-3">about me</div> <div class="row"> 
+<div class="col-md-6 themed-grid-col">neam neki hobi al 24/7 slusam pjesme,volim setat i pusit u prirodi,<br>also obozavam spavat,a volim i crtat al rijetko imam ideja</div> 
+<div class="col-md-6 themed-grid-col">od vjestina isto nemam neku da se istice,znam extra motat i mogu jako puno pricat <br>sve ovisi kaki je dan</div>
+
+  <div class="container">
+        <div class="contact-form">
+<br>
+            <h2>kontaktirajte nas</h2>
+
+
+            <form method="GET">
+
+                
+                <div class="row mb-3">
+                    
+                   
+                    <div class="col-md-6">
+                        <label for="ime" class="form-label">ime</label>
+                        <input type="text" class="form-control" id="ime" name="ime" placeholder="Unesite ime">
+                        </div>
+
+                    
+                    <div class="col-md-6">
+                        <label for="email" class="form-label">email</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Unesite email">
+                    </div>
+
+                </div>
+
+                <!-- Drugi red -->
+                <div class="mb-3">
+                    <label for="poruka" class="form-label">poruka</label>
+                    <textarea class="form-control" id="poruka" name="poruka" rows="5" placeholder="Napišite poruku"></textarea>
+                </div>
+
+                <div class="mb-3">
+                    <label for="datum" class="form-label">odaberi datum</label>
+                    <input type="date" class="form-control" id="datum" name="datum">
+                </div>
+
+                
+                <div class="text-center">
+                    <button type="submit" class="btn btn-custom px-4">
+                        posalji 
+                    </button>
+                </div>
+
+            </form>
+           
+ </div> </div> 
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity=
+    "sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
